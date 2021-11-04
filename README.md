@@ -1,7 +1,7 @@
 # nudge
 social group app - send nudges to your friends and family
 
-#instructions:
+# instructions:
 
 1. cd into backend and run the following:
  - npm init
