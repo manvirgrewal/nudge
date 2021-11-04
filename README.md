@@ -1,6 +1,10 @@
 # nudge
 social group app - send nudges to your friends and family
 
+![IMG_4493_iphone12black_portrait](https://user-images.githubusercontent.com/3681651/140435102-50735eee-0a3d-46c4-a2e1-4c623e35592a.png
+![IMG_4495_iphone12black_portrait](https://user-images.githubusercontent.com/3681651/140435131-8cee9d28-c269-45e9-aec6-a85833db1113.png)
+)
+
 # instructions:
 
 1. cd into backend and run the following:
