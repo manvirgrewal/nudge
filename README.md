@@ -30,6 +30,7 @@ Backend:
  lodash 
  mongoose 
  nodemon
+ 
 Frontend:
  react native
  expo
