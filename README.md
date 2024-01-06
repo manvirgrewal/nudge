@@ -9,16 +9,20 @@ social group app - send nudges to your friends and family
 
 1. cd into backend and run the following:
  - npm init
- - npm install
+ - npm install (grab the dependancies as per config; use sudo if OS perms arent already super)
  - npm start (may have to update the mongodb URI within index.js (the mongodb atlas free tier cluster gets paused after a certain amount of time))
 
 2. open a new terminal and run the following: 
  - npm install ngrok -g (may have to run it as sudo npm ... if ur OS permissions are different)
- - ngrok
- - copy the forwarding link and replace the one in ./frontend/api/linker.js
+ - signup/login for ngrok @ ngrok.com
+ - follow the connect instructions shown on the website ie. ngrok config add-authtoken ...
+ - run ngrok http 80
+ - copy the forwarding link and replace the one in ./frontend/src/api/linker.js (ie. https://[...].ngrok-free.app)
 
 3. open a new terminal, cd into frontend, and run the following:
  - npm init
+ - npm install (grab the dependancies as per config) - may have to use sudo again depending on OS permissions
+ - run npx expo init nudge
  - expo start
  - set the mode to tunnel (just in case you aren't connected to the same wifi)
  - install the expo go app on your phone
