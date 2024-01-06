@@ -9,7 +9,8 @@ social group app - send nudges to your friends and family
 
 1. cd into backend and run the following:
  - npm init
- - npm start
+ - npm install
+ - npm start (may have to update the mongodb URI within index.js (the mongodb atlas free tier cluster gets paused after a certain amount of time))
 
 2. open a new terminal and run the following: 
  - npm install ngrok -g
