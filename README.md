@@ -13,7 +13,7 @@ social group app - send nudges to your friends and family
  - npm start (may have to update the mongodb URI within index.js (the mongodb atlas free tier cluster gets paused after a certain amount of time))
 
 2. open a new terminal and run the following: 
- - npm install ngrok -g
+ - npm install ngrok -g (may have to run it as sudo npm ... if ur OS permissions are different)
  - ngrok
  - copy the forwarding link and replace the one in ./frontend/api/linker.js
 
